@@ -1,0 +1,1 @@
+{application, erlrrd, [{description, "Erlrrd"}, {vsn, "0.0.72"}, {id, "erlrrd"}, {modules, [erlrrd, erlrrd_app, erlrrd_sup]}, {registered, []}, {applications, [kernel,stdlib,sasl,inets]}, {mod, {erlrrd_app, []}}, {env, [{rrdtoolcmd, "rrdtool -"}]}]}.
